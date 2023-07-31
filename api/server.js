@@ -2,8 +2,8 @@ import express from 'express';
 // import session from 'express-session';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
-import './connection/database.js';
-import routes from './routes/routes.js';
+import './src/connection/database.js';
+import routes from './src/routes/routes.js';
 
 const app = express();
 const port = 5000;
